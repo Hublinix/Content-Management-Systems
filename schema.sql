@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS registrar_db;
 CREATE DATABASE registrar_db;
 
+USE registrar_db
+
 CREATE TABLE department (
 id: SERIAL PRIMARY KEY
 name: VARCHAR(30) UNIQUE NOT NULL
